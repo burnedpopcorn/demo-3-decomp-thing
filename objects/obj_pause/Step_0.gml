@@ -348,7 +348,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     global.laptouched = 0
                     global.fakepeppino = 0
                     global.timeattack = 0
-                    script_execute(gml_Script_scr_playerreset)
+                    script_execute(scr_playerreset)
                     var _backtohubroom = hub_room1
                     roomname = room_get_name(room)
                     if (global.levelname != "none")

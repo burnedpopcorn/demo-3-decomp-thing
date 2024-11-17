@@ -1,51 +1,49 @@
-var _temp_local_var_2;
-function scr_collide() //gml_Script_scr_collide
+function scr_collide()
 {
+    var _grav;
+    
     if (global.freezeframe == true)
         return false;
-    grounded = false
-    in_water = (instance_exists(obj_water) && obj_water.bbox_top < y)
-    var _temp_local_var_2 = abs(vsp)
-	if !(abs(vsp) <= 0)
+    
+    grounded = false;
+    in_water = instance_exists(obj_water) && obj_water.bbox_top < y;
+    
+    repeat (abs(vsp))
     {
-        while (true)
+        if (!scr_solid(x, y + sign(vsp)))
         {
-            if (!(scr_solid(x, (y + sign(vsp)))))
-            {
-                y += sign(vsp)
-                var _temp_local_var_2 = (abs(vsp) - 1)
-                if (abs(vsp) - 1)
-                    continue
-                break
-            }
-            else
-                vsp = 0
+            y += sign(vsp);
+        }
+        else
+        {
+            vsp = 0;
+            break;
         }
     }
-    var _temp_local_var_2 = abs(hsp)
-	if !(abs(hsp) <= 0)
+    
+    repeat (abs(hsp))
     {
-        while (true)
+        if (scr_solid(x + sign(hsp), y) && !scr_solid(x + sign(hsp), y - 1))
+            y--;
+        
+        if (!scr_solid(x + sign(hsp), y) && !scr_solid(x + sign(hsp), y + 1) && scr_solid(x + sign(hsp), y + 2))
+            y++;
+        
+        if (!scr_solid(x + sign(hsp), y))
         {
-            if (scr_solid((x + sign(hsp)), y) && (!(scr_solid((x + sign(hsp)), (y - 1)))))
-                y--
-            if ((!(scr_solid((x + sign(hsp)), y))) && (!(scr_solid((x + sign(hsp)), (y + 1)))) && scr_solid((x + sign(hsp)), (y + 2)))
-                y++
-            if (!(scr_solid((x + sign(hsp)), y)))
-            {
-                x += sign(hsp)
-                var _temp_local_var_2 = (abs(hsp) - 1)
-                if (abs(hsp) - 1)
-                    continue
-                break
-            }
-            else
-                hsp = 0
+            x += sign(hsp);
+        }
+        else
+        {
+            hsp = 0;
+            break;
         }
     }
-    var _grav = (in_water == true ? 6 : 10)
+    
+    _grav = (in_water == true) ? 6 : 10;
+    
     if (vsp < _grav)
-        vsp += grav
-    grounded |= scr_solid(x, (y + 1))
+        vsp += grav;
+    
+    grounded |= scr_solid(x, y + 1);
 }
-
