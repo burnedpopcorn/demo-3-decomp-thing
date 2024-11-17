@@ -1,0 +1,16 @@
+if (active == true)
+{
+    draw_set_color(c_black)
+    draw_set_alpha(0.5)
+    draw_rectangle(-32, -32, 992, 572, false)
+    draw_set_alpha(1)
+    draw_set_color(c_white)
+    draw_set_halign(fa_center)
+    draw_set_font(font0)
+    draw_text(431, 160, "Press F6 to close this menu")
+    draw_text(431, 204, string(input))
+    var length = (-((string_width(string(input)) / 2))) + string_width(string(input))
+    draw_text((431 + length + 3), 204, cursor)
+    draw_set_halign(fa_left)
+    draw_text(100, 26, string_hash_to_newline(commandhistory))
+}

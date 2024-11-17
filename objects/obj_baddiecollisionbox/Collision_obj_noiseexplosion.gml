@@ -1,0 +1,32 @@
+if (instance_exists(baddieID) && global.freezeframe == false)
+{
+    var vec = point_direction(other.x, other.y, x, y)
+    var len = random_range(10, 15)
+    with (baddieID)
+    {
+        if (state != (200 << 0) && state != (201 << 0))
+        {
+            if (hp > 1)
+            {
+                state = 106
+                if (stunned < 200)
+                    stunned = 200
+                vsp = -10
+                hsp = 0
+                momentum = 0
+                hp -= 1
+            }
+            else
+            {
+                initialvsp = lengthdir_y(len, vec)
+                initialhsp = lengthdir_x(len, vec)
+                dying = true
+                scarebuffer = 0
+                blowdirection = 5
+                blowintensity = 1
+                playerxscale = image_xscale
+                state = (200 << 0)
+            }
+        }
+    }
+}

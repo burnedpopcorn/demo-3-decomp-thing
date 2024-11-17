@@ -1,0 +1,12 @@
+hsp = 0
+vsp = 0
+grav = 0.5
+grounded = 1
+image_index = irandom_range(0, 6)
+depth = 1
+thrown = 0
+grabbed = 0
+playerid = obj_player1
+hp = 1
+heavy = 1
+state = 0

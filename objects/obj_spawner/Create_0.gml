@@ -1,0 +1,10 @@
+image_speed = 0
+createdid = -4
+content = noone
+refresh = 20
+depth = 5
+vsp = 0
+hsp = 0
+grav = 0.35
+spawny = 35
+important = false

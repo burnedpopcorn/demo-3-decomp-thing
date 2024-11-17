@@ -1,0 +1,9 @@
+drop = 0
+grounded = 1
+hsp = 0
+vsp = 0
+grav = 0.4
+image_speed = 0
+baddieID = obj_gmliveblank
+banana = 0
+droppedbybaddie = false

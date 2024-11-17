@@ -1,0 +1,11 @@
+depth = -100
+i = 0
+image_speed = 1
+surface_width = 224
+surface_height = 263
+surface_x = 368
+surface_y = 244
+credits_surface = -4
+credits_y = surface_height + 5
+autoscroll = true
+credits_text = "\r\nOriginal Creator:\r\n\r\nMcPig\r\n\r\nDemo 3 Guy:\r\n\r\nMr. Unown\r\n\r\nDevs:\r\n\r\ncore\r\nZetare\r\nFall Guy 1968\r\npitch\r\nMarioket\r\nRosafito\r\nRoley\r\n\r\nContributers:\r\n\r\nOrcaDiscordera\r\nRodmod\r\nching\r\nluigio\r\n\r\nSpecial Thanks:\r\n\r\nMineKen713\r\nEthGaming101\r\nPinPanPaint\r\n902\r\nJoniton\r\nRed\r\nDorinX\r\n\r\nContest Winners:\r\n\r\nFOUSHe\r\nCore\r\nTrash_bandatcoot\r\nOwenfrix\r\nClay57\r\nWorld2121\r\nMia\r\nKelp185\r\nDorinX\r\nFNFfan\r\nFall Guy 1968\r\nBluemycool\r\n902\r\nOrcaDiscordera\r\nBananaboat\r\nBondorak\r\nJessie Productions\r\nfatman\r\nMattheholic444\r\nPookie\r\n\r\n"
