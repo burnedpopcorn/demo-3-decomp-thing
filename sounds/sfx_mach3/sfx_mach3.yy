@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_mach3.wav",
-  "duration": 0.0,
+  "duration": 1.714286,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_fart.wav",
-  "duration": 0.0,
+  "duration": 1.538889,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

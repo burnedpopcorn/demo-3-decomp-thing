@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_machpunch.wav",
-  "duration": 0.0,
+  "duration": 0.383333,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

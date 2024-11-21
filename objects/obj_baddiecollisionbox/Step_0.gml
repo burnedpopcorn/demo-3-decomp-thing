@@ -186,89 +186,92 @@ for (var i = 1; i <= 2; i++)
                         other.baddieID.state = (105 << 0)
                     }
                 }
-                if (sprite_index == spr_player_shoryumineken && vsp < 0 && other.baddieID.hp > 0 && (!other.baddieID.invincible))
-                {
-                    flash = 1
-                    sprite_index = spr_player_shoryumineken
-                    image_index = 4
-                    if (vsp > -20)
-                        vsp += -1
-                    other.baddieID.blowdirection = 3
-                    if (other.baddieID.hp <= 1)
-                        other.baddieID.blowintensity = 1
-                    else
-                        other.baddieID.blowintensity = 0.8
-                    scr_soundeffect(sfx_killingblow)
-                    scr_soundeffect(sfx_punch)
-                    with (other.baddieID)
-                    {
-                        hp -= 99
-                        scarebuffer = 0
-                        shakebuffer = 2.5
-                        shake = 1
-                        playerxscale = other.xscale
-                        grabbedby = _grabbedby
-                        image_xscale = (-other.xscale)
-                        if (stunned < 500)
-                            stunned = 500
-                        alarm[3] = 3
-                        global.hit = global.hit + 1
-                        alarm[1] = 5
-                        state = 200
-                        grav = 0
-                        hsp = 0
-                        vsp = 0
-                        global.combotime = 60
-                        global.pausecombotime = true
-                        obj_tv.alarm[1] = 75
-                        with (obj_camera)
-                        {
-                            scr_sleep()
-                            shake_mag = 3
-                            shake_mag_acc = 3 / room_speed
-                        }
-                    }
-                }
-                else if (sprite_index == spr_player_shoryumineken && other.baddieID.vsp > 0 && other.baddieID.dying == true && vsp < 0)
-                {
-                    sprite_index = spr_player_shoryumineken
-                    image_index = 4
-                    other.baddieID.blowdirection = 3
-                    if (other.baddieID.hp <= 1)
-                        other.baddieID.blowintensity = 1
-                    else
-                        other.baddieID.blowintensity = 0.8
-                    scr_soundeffect(sfx_killingblow)
-                    scr_soundeffect(sfx_punch)
-                    with (other.baddieID)
-                    {
-                        hp -= 1
-                        scarebuffer = 0
-                        shakebuffer = 2.5
-                        shake = 1
-                        playerxscale = other.xscale
-                        grabbedby = _grabbedby
-                        image_xscale = (-other.xscale)
-                        if (stunned < 500)
-                            stunned = 500
-                        alarm[3] = 3
-                        global.hit = global.hit + 1
-                        alarm[1] = 5
-                        state = 200
-                        grav = 0
-                        hsp = 0
-                        vsp = 0
-                        global.combotime = 60
-                        global.pausecombotime = true
-                        obj_tv.alarm[1] = 75
-                        with (obj_camera)
-                        {
-                            scr_sleep()
-                            shake_mag = 3
-                            shake_mag_acc = 3 / room_speed
-                        }
-                    }
-                }
+				if instance_exists(other.baddieID)
+				{
+	                if (sprite_index == spr_player_shoryumineken && vsp < 0 && other.baddieID.hp > 0 && (!other.baddieID.invincible))
+	                {
+	                    flash = 1
+	                    sprite_index = spr_player_shoryumineken
+	                    image_index = 4
+	                    if (vsp > -20)
+	                        vsp += -1
+	                    other.baddieID.blowdirection = 3
+	                    if (other.baddieID.hp <= 1)
+	                        other.baddieID.blowintensity = 1
+	                    else
+	                        other.baddieID.blowintensity = 0.8
+	                    scr_soundeffect(sfx_killingblow)
+	                    scr_soundeffect(sfx_punch)
+	                    with (other.baddieID)
+	                    {
+	                        hp -= 99
+	                        scarebuffer = 0
+	                        shakebuffer = 2.5
+	                        shake = 1
+	                        playerxscale = other.xscale
+	                        grabbedby = _grabbedby
+	                        image_xscale = (-other.xscale)
+	                        if (stunned < 500)
+	                            stunned = 500
+	                        alarm[3] = 3
+	                        global.hit = global.hit + 1
+	                        alarm[1] = 5
+	                        state = 200
+	                        grav = 0
+	                        hsp = 0
+	                        vsp = 0
+	                        global.combotime = 60
+	                        global.pausecombotime = true
+	                        obj_tv.alarm[1] = 75
+	                        with (obj_camera)
+	                        {
+	                            scr_sleep()
+	                            shake_mag = 3
+	                            shake_mag_acc = 3 / room_speed
+	                        }
+	                    }
+	                }
+	                else if (sprite_index == spr_player_shoryumineken && other.baddieID.vsp > 0 && other.baddieID.dying == true && vsp < 0)
+	                {
+	                    sprite_index = spr_player_shoryumineken
+	                    image_index = 4
+	                    other.baddieID.blowdirection = 3
+	                    if (other.baddieID.hp <= 1)
+	                        other.baddieID.blowintensity = 1
+	                    else
+	                        other.baddieID.blowintensity = 0.8
+	                    scr_soundeffect(sfx_killingblow)
+	                    scr_soundeffect(sfx_punch)
+	                    with (other.baddieID)
+	                    {
+	                        hp -= 1
+	                        scarebuffer = 0
+	                        shakebuffer = 2.5
+	                        shake = 1
+	                        playerxscale = other.xscale
+	                        grabbedby = _grabbedby
+	                        image_xscale = (-other.xscale)
+	                        if (stunned < 500)
+	                            stunned = 500
+	                        alarm[3] = 3
+	                        global.hit = global.hit + 1
+	                        alarm[1] = 5
+	                        state = 200
+	                        grav = 0
+	                        hsp = 0
+	                        vsp = 0
+	                        global.combotime = 60
+	                        global.pausecombotime = true
+	                        obj_tv.alarm[1] = 75
+	                        with (obj_camera)
+	                        {
+	                            scr_sleep()
+	                            shake_mag = 3
+	                            shake_mag_acc = 3 / room_speed
+	                        }
+	                    }
+	                }
+				}
                 if (instance_exists(other.baddieID) && instakillmove == 0 && other.baddieID.state != "punch" && other.baddieID.dying == false && y < other.baddieID.y && attacking == 0 && sprite_index != spr_player_mach2jump && (state == 58 || state == 69 || state == 46) && vsp > 0 && other.baddieID.vsp >= 0 && sprite_index != spr_stompprep && (!other.baddieID.invincible))
                 {
                     scr_soundeffect(sfx_stompenemy)

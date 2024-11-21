@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_screamhurt.wav",
-  "duration": 0.0,
+  "duration": 1.749252,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

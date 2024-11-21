@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_jump.wav",
-  "duration": 0.0,
+  "duration": 0.806916,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

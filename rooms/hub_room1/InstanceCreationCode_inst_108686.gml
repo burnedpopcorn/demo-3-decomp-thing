@@ -1,2 +1,2 @@
 level = "entrance"
-targetRoom = pinball_1
+targetRoom = entrance_1
