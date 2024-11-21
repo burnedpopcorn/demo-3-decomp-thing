@@ -5,7 +5,7 @@ condition = function() //gml_Script_anon_gml_RoomCC_desert_secret3_1_Create_12_g
 
 output = function() //gml_Script_anon_gml_RoomCC_desert_secret3_1_Create_80_gml_RoomCC_desert_secret3_1_Create
 {
-    with (103081)
+    with (obj_secreteye)//(103081)
     {
         activated = true
         sprite_index = spr_secreteye_spawning
