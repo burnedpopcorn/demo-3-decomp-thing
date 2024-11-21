@@ -1,4 +1,4 @@
-function scr_player_bump() //gml_Script_scr_player_bump
+function scr_player_bump() //scr_player_bump
 {
     movespeed = 0
     mach2 = 0

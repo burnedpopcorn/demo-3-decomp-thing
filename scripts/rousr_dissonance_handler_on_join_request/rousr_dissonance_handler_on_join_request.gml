@@ -1,4 +1,4 @@
-function rousr_dissonance_handler_on_join_request() //gml_Script_rousr_dissonance_handler_on_join_request
+function rousr_dissonance_handler_on_join_request() //rousr_dissonance_handler_on_join_request
 {
     var _script_index = argument[0]
     var _user_data = (argument_count > 1 ? argument[1] : undefined)

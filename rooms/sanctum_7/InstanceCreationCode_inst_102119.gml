@@ -1,9 +1,9 @@
-condition = function() //gml_Script_anon_gml_RoomCC_sanctum_7_7_Create_12_gml_RoomCC_sanctum_7_7_Create
+condition = function() //anon_gml_RoomCC_sanctum_7_7_Create_12_gml_RoomCC_sanctum_7_7_Create
 {
     return global.panic;
 }
 
-output = function() //gml_Script_anon_gml_RoomCC_sanctum_7_7_Create_62_gml_RoomCC_sanctum_7_7_Create
+output = function() //anon_gml_RoomCC_sanctum_7_7_Create_62_gml_RoomCC_sanctum_7_7_Create
 {
     with (obj_water)
     {

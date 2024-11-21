@@ -1,9 +1,9 @@
-function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
+function scr_default_parallax(argument0) //scr_default_parallax
 {
     if (argument0 == undefined)
         argument0 = false
     bg = undefined
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_119_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_119_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -13,7 +13,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_1", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_420_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_420_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -23,7 +23,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_2", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_721_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_721_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -33,7 +33,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_3", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_1022_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_1022_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -43,7 +43,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_4", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_1325_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_1325_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_5"))
@@ -54,7 +54,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_5", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_1824_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_1824_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var foregroundoffsety = room_height - sprite_get_height(layer_background_get_sprite(back_id))
         var _camera = camera_get_position_struct(view_camera[0])
@@ -66,7 +66,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_foreground", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_2485_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_2485_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -91,7 +91,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_long2", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_3221_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_3221_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -116,7 +116,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_long", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_3948_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_3948_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -126,7 +126,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_Ground1", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_4253_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_4253_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -136,7 +136,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_Ground2", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_4566_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_4566_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -146,7 +146,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_scroll", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_4883_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_4883_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -156,7 +156,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_sky", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_5198_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_5198_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var array = -4
@@ -166,7 +166,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_sky2", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_5549_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_5549_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_H1"))
@@ -177,7 +177,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_H2", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_6084_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_6084_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_H2"))
@@ -188,7 +188,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_H1", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_6574_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_6574_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_H3"))
@@ -199,7 +199,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_H3", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_7063_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_7063_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_H4"))
@@ -210,7 +210,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_H4", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_7554_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_7554_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_V1"))
@@ -221,7 +221,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_V1", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_8041_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_8041_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_V2"))
@@ -232,7 +232,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_V2", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_8529_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_8529_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_far"))
@@ -243,7 +243,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_far", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_9125_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_9125_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_far1"))
@@ -254,7 +254,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_far1", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_9725_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_9725_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_far2"))
@@ -265,7 +265,7 @@ function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
     }
 
     add_parallax_function("Backgrounds_far2", bg, argument0)
-    bg = function() //gml_Script_anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_10325_scr_default_parallax_gml_GlobalScript_scr_default_parallax
+    bg = function() //anon_scr_default_parallax_gml_GlobalScript_scr_default_parallax_10325_scr_default_parallax_gml_GlobalScript_scr_default_parallax
     {
         var _camera = camera_get_position_struct(view_camera[0])
         var back_id = layer_background_get_id_fixed(layer_get_id("Backgrounds_far3"))

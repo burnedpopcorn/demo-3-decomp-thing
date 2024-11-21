@@ -14,8 +14,12 @@ Changes made by burnedpopcorn
 - Changed ALL Sounds to "Compressed - Not Streamed", since that's how the original game did it
 - Updated Main, Windows, and GX.GAMES Game Options to be completely the same as the original executable
 (as in Display Name, Version #, Company, Product, Copyright, Description, and Project and EXE Image have been changed to be the same)
+
+Fixes
 - Fixed scr_roomnames to apply Room Messages to the Correct Rooms
 - Fixed obj_eventtrigger Creation Code
+- Fixed mr car instantly disappearing when killed
+- Removed any "gml_Script_" parts, since in comments they're useless, and in code fucks up everything
 
 NOTES
 scr_playerstep() is the main thing for Player States

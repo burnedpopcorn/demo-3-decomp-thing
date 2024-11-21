@@ -1,4 +1,4 @@
-function scr_enemy_walk() //gml_Script_scr_enemy_walk
+function scr_enemy_walk() //scr_enemy_walk
 {
     var _movespeed = movespeed + (clamp(global.heatmeter, 0, 3.25)) * sign(movespeed)
     var _image_speed = 0.35 + global.heatmeter * 0.05

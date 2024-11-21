@@ -1,4 +1,4 @@
-function scr_player_normal() //gml_Script_scr_player_normal
+function scr_player_normal() //scr_player_normal
 {
     if (dir != xscale)
     {

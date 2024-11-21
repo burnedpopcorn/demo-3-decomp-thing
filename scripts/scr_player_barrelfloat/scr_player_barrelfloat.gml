@@ -1,4 +1,4 @@
-function scr_player_barrelfloat() //gml_Script_scr_player_barrelfloat
+function scr_player_barrelfloat() //scr_player_barrelfloat
 {
 }
 

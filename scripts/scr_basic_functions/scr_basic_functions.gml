@@ -1,21 +1,21 @@
 var layers;
-function approach(argument0, argument1, argument2) //gml_Script_approach
+function approach(argument0, argument1, argument2) //approach
 {
     return (argument0 + (clamp((argument1 - argument0), (-argument2), argument2)));
 }
 
-function chance(argument0) //gml_Script_chance
+function chance(argument0) //chance
 {
     return argument0 > random(1);
 }
 
-function wave(argument0, argument1, argument2, argument3) //gml_Script_wave
+function wave(argument0, argument1, argument2, argument3) //wave
 {
     var a4 = (argument1 - argument0) * 0.5
     return (argument0 + a4 + (sin((current_time * 0.001 + argument2 * argument3) / argument2 * (2 * pi))) * a4);
 }
 
-function wrap(argument0, argument1, argument2) //gml_Script_wrap
+function wrap(argument0, argument1, argument2) //wrap
 {
     var value = floor(argument0)
     var _min = floor(min(argument1, argument2))
@@ -24,7 +24,7 @@ function wrap(argument0, argument1, argument2) //gml_Script_wrap
     return (((((value - _min) % range) + range) % range) + _min);
 }
 
-function animation_end(argument0, argument1) //gml_Script_animation_end
+function animation_end(argument0, argument1) //animation_end
 {
     if (argument0 == undefined)
         argument0 = floor(image_index)
@@ -33,7 +33,7 @@ function animation_end(argument0, argument1) //gml_Script_animation_end
     return argument0 >= argument1;
 }
 
-function nearest_player(argument0, argument1) //gml_Script_nearest_player
+function nearest_player(argument0, argument1) //nearest_player
 {
     if (argument0 == undefined)
         argument0 = x
@@ -42,12 +42,12 @@ function nearest_player(argument0, argument1) //gml_Script_nearest_player
     return (global.coop == false ? 62 : instance_nearest(argument0, argument1, obj_player));
 }
 
-function focused_player() //gml_Script_focused_player
+function focused_player() //focused_player
 {
     return (global.coop == false ? 62 : (obj_player1.spotlight == false ? 61 : 62));
 }
 
-function layer_change_background(argument0, argument1) //gml_Script_layer_change_background
+function layer_change_background(argument0, argument1) //layer_change_background
 {
     if (argument0 != argument1)
     {
@@ -61,7 +61,7 @@ function layer_change_background(argument0, argument1) //gml_Script_layer_change
     }
 }
 
-function get_all_layer_type(argument0) //gml_Script_get_all_layer_type
+function get_all_layer_type(argument0) //get_all_layer_type
 {
     if (argument0 == undefined)
         argument0 = 0
@@ -78,7 +78,7 @@ function get_all_layer_type(argument0) //gml_Script_get_all_layer_type
     return layers;
 }
 
-function rank_checker(argument0) //gml_Script_rank_checker
+function rank_checker(argument0) //rank_checker
 {
     if (argument0 == undefined)
         argument0 = global.rank

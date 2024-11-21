@@ -1,4 +1,4 @@
-function scr_player_breakdance() //gml_Script_scr_player_breakdance
+function scr_player_breakdance() //scr_player_breakdance
 {
     if ((!(place_meeting(x, (y + 1), obj_railh))) && (!(place_meeting(x, (y + 1), obj_railh2))))
         hsp = xscale * movespeed

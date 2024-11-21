@@ -1,4 +1,4 @@
-function scr_player_grabbed() //gml_Script_scr_player_grabbed
+function scr_player_grabbed() //scr_player_grabbed
 {
     switch object_index
     {

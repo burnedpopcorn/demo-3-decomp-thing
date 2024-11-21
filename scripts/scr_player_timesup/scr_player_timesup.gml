@@ -1,4 +1,4 @@
-function scr_player_timesup() //gml_Script_scr_player_timesup
+function scr_player_timesup() //scr_player_timesup
 {
     var second_player = (object_index == obj_player2 ? obj_player1 : obj_player2)
     xscale = 1

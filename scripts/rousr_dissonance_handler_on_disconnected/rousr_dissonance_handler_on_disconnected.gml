@@ -1,4 +1,4 @@
-function rousr_dissonance_handler_on_disconnected() //gml_Script_rousr_dissonance_handler_on_disconnected
+function rousr_dissonance_handler_on_disconnected() //rousr_dissonance_handler_on_disconnected
 {
     var _script_index = argument[0]
     var _user_data = (argument_count > 1 ? argument[1] : undefined)

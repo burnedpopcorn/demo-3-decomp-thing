@@ -1,4 +1,4 @@
-function scr_player_hang() //gml_Script_scr_player_hang
+function scr_player_hang() //scr_player_hang
 {
     hsp = 0
     vsp = 0

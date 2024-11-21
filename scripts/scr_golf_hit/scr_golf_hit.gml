@@ -1,4 +1,4 @@
-function scr_golf_hit() //gml_Script_scr_golf_hit
+function scr_golf_hit() //scr_golf_hit
 {
     grav = 0.35
     var devvsp = vsp / 2

@@ -1,4 +1,4 @@
-function scr_player_barrelmach2() //gml_Script_scr_player_barrelmach2
+function scr_player_barrelmach2() //scr_player_barrelmach2
 {
 }
 

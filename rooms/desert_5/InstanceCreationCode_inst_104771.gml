@@ -1,10 +1,10 @@
-condition = function() //gml_Script_anon_gml_RoomCC_desert_5_5_Create_12_gml_RoomCC_desert_5_5_Create
+condition = function() //anon_gml_RoomCC_desert_5_5_Create_12_gml_RoomCC_desert_5_5_Create
 {
     var player = nearest_player()
     return (distance_to_object(player) <= 2500 && player.state == (7 << 0));
 }
 
-output = function() //gml_Script_anon_gml_RoomCC_desert_5_5_Create_150_gml_RoomCC_desert_5_5_Create
+output = function() //anon_gml_RoomCC_desert_5_5_Create_150_gml_RoomCC_desert_5_5_Create
 {
     with (obj_secreteye)//(104665)
     {

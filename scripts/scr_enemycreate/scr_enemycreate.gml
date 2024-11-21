@@ -1,4 +1,4 @@
-function scr_enemycreate() //gml_Script_scr_enemycreate
+function scr_enemycreate() //scr_enemycreate
 {
     if (panic_escape == true && global.panic == false)
         instance_destroy(id, false)

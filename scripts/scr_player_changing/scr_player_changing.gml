@@ -1,4 +1,4 @@
-function scr_player_changing() //gml_Script_scr_player_changing
+function scr_player_changing() //scr_player_changing
 {
     cutscene = true
     hsp = 0

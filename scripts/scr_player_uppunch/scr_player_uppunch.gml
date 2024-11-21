@@ -1,4 +1,4 @@
-function scr_player_uppunch() //gml_Script_scr_player_uppunch
+function scr_player_uppunch() //scr_player_uppunch
 {
     if (momemtum == 0)
         hsp = move * movespeed

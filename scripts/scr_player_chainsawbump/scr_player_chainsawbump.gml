@@ -1,4 +1,4 @@
-function scr_player_chainsawbump() //gml_Script_scr_player_chainsawbump
+function scr_player_chainsawbump() //scr_player_chainsawbump
 {
     movespeed = 0
     mach2 = 0

@@ -1,4 +1,4 @@
-function scr_player_startgate() //gml_Script_scr_player_startgate
+function scr_player_startgate() //scr_player_startgate
 {
     hsp = 0
     mach2 = 0

@@ -3,7 +3,7 @@ targets[0] = -4
 unid = 0
 is_exit_portal = false
 exit_id = -4
-add_target = function(argument0, argument1, argument2, argument3) //gml_Script_anon_gml_Object_obj_objectteleportal_Create_0_96_gml_Object_obj_objectteleportal_Create_0
+add_target = function(argument0, argument1, argument2, argument3) //anon_gml_Object_obj_objectteleportal_Create_0_96_gml_Object_obj_objectteleportal_Create_0
 {
     if (argument1 == undefined)
         argument1 = 0

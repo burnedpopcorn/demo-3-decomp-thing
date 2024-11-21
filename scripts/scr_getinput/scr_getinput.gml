@@ -1,4 +1,4 @@
-function scr_getinput() //gml_Script_scr_getinput
+function scr_getinput() //scr_getinput
 {
     gamepad_set_axis_deadzone(0, 0.4)
     key_up = false

@@ -1,4 +1,4 @@
-function scr_player_newbomb() //gml_Script_scr_player_newbomb
+function scr_player_newbomb() //scr_player_newbomb
 {
     alarm[5] = 2
     alarm[7] = 60

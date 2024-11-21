@@ -1,4 +1,4 @@
-function scr_player_bashhit() //gml_Script_scr_player_bashhit
+function scr_player_bashhit() //scr_player_bashhit
 {
     mach2 = 0
     anger = 100

@@ -1,5 +1,5 @@
 var layers;
-function scr_panicbg_start() //gml_Script_scr_panicbg_start
+function scr_panicbg_start() //scr_panicbg_start
 {
     if ((!variable_global_exists("panicbg_surface")) || (!surface_exists(global.panicbg_surface)))
         global.panicbg_surface = surface_create((camera_get_view_width(view_camera[0]) + 128), (camera_get_view_height(view_camera[0]) + 128))
@@ -22,7 +22,7 @@ function scr_panicbg_start() //gml_Script_scr_panicbg_start
     }
 }
 
-function scr_panicbg_end() //gml_Script_scr_panicbg_end
+function scr_panicbg_end() //scr_panicbg_end
 {
     if (event_type == 8 && event_number == 0)
     {
@@ -42,7 +42,7 @@ function scr_panicbg_end() //gml_Script_scr_panicbg_end
     }
 }
 
-function scr_panicbg_init() //gml_Script_scr_panicbg_init
+function scr_panicbg_init() //scr_panicbg_init
 {
     var layernum = 0
     var a = layer_get_all()
@@ -54,7 +54,7 @@ function scr_panicbg_init() //gml_Script_scr_panicbg_init
     }
     if (!layernum)
         return;
-    var _f = function(argument0, argument1) //gml_Script_anon_scr_panicbg_init_gml_GlobalScript_scr_panicbg_4907_scr_panicbg_init_gml_GlobalScript_scr_panicbg
+    var _f = function(argument0, argument1) //anon_scr_panicbg_init_gml_GlobalScript_scr_panicbg_4907_scr_panicbg_init_gml_GlobalScript_scr_panicbg
     {
         return (-((layer_get_depth(argument0) - layer_get_depth(argument1))));
     }
@@ -62,7 +62,7 @@ function scr_panicbg_init() //gml_Script_scr_panicbg_init
     array_sort(layers, _f)
     var bottom_id = layers[0]
     var top_id = layers[(layernum - 1)]
-    layer_script_begin(bottom_id, gml_Script_scr_panicbg_start)
-    layer_script_end(top_id, gml_Script_scr_panicbg_end)
+    layer_script_begin(bottom_id, scr_panicbg_start)
+    layer_script_end(top_id, scr_panicbg_end)
 }
 

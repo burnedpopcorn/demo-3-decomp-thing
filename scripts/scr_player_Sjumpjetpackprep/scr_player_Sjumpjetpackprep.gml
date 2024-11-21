@@ -1,4 +1,4 @@
-function scr_player_Sjumpjetpackprep() //gml_Script_scr_player_Sjumpjetpackprep
+function scr_player_Sjumpjetpackprep() //scr_player_Sjumpjetpackprep
 {
     combo = 0
     mach2 = 0

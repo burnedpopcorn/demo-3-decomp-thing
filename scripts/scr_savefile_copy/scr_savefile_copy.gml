@@ -1,4 +1,4 @@
-function scr_savefile_copy() //gml_Script_scr_savefile_copy
+function scr_savefile_copy() //scr_savefile_copy
 {
     scr_getinput()
     if (vanity_to_file > -1 && (key_up2 || keyboard_check_pressed(vk_up)) && global.savefilechoosen == false && (!key_jump2) && selectedcopy_to_file == false)

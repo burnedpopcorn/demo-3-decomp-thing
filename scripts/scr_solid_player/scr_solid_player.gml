@@ -300,7 +300,7 @@ function scr_solid_player(argument0 = x, argument1 = y, argument2 = false)
 }
 
 /*
-function scr_solid_player(argument0, argument1, argument2) //gml_Script_scr_solid_player
+function scr_solid_player(argument0, argument1, argument2) //scr_solid_player
 {
     if (argument0 == undefined)
         argument0 = x

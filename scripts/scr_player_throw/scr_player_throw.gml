@@ -1,4 +1,4 @@
-function scr_player_throw() //gml_Script_scr_player_throw
+function scr_player_throw() //scr_player_throw
 {
     move = key_left + key_right
     if grounded

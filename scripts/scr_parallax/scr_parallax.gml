@@ -1,5 +1,5 @@
 var return_value;
-function parallax_layer(argument0) //gml_Script_parallax_layer
+function parallax_layer(argument0) //parallax_layer
 {
     if (argument0 == undefined)
         argument0 = -4
@@ -19,7 +19,7 @@ function parallax_layer(argument0) //gml_Script_parallax_layer
     return return_value;
 }
 
-function add_parallax_function(argument0, argument1, argument2) //gml_Script_add_parallax_function
+function add_parallax_function(argument0, argument1, argument2) //add_parallax_function
 {
     if (argument2 == undefined)
         argument2 = false

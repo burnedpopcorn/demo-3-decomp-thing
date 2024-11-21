@@ -1,4 +1,4 @@
-function scr_endlevel() //gml_Script_scr_endlevel
+function scr_endlevel() //scr_endlevel
 {
     var obj_index = (object_index == obj_treasure ? id : other.id)
     if (!instance_exists(obj_gatetransition))

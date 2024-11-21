@@ -1,4 +1,4 @@
-function scr_soundstop() //gml_Script_scr_soundstop
+function scr_soundstop() //scr_soundstop
 {
     var snd = argument[irandom(argument_count - 1)]
     global.music = audio_play_sound(snd, 10, false)

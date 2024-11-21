@@ -1,4 +1,4 @@
-function scr_player_frozen() //gml_Script_scr_player_frozen
+function scr_player_frozen() //scr_player_frozen
 {
     move = key_right + key_left
     if (!key_jump2)

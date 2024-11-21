@@ -1,4 +1,4 @@
-function scr_player_barrelcrouch() //gml_Script_scr_player_barrelcrouch
+function scr_player_barrelcrouch() //scr_player_barrelcrouch
 {
     mask_index = spr_player_mask
     hsp = 0

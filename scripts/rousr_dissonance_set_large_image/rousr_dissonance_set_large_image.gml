@@ -1,4 +1,4 @@
-function rousr_dissonance_set_large_image() //gml_Script_rousr_dissonance_set_large_image
+function rousr_dissonance_set_large_image() //rousr_dissonance_set_large_image
 {
     var _image_key = argument[0]
     var _image_text = (argument_count > 1 ? argument[1] : undefined)

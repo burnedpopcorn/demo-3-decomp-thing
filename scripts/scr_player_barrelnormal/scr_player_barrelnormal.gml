@@ -1,4 +1,4 @@
-function scr_player_barrelnormal() //gml_Script_scr_player_barrelnormal
+function scr_player_barrelnormal() //scr_player_barrelnormal
 {
     mask_index = spr_player_mask
     image_speed = 0.35

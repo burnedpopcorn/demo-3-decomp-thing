@@ -1,4 +1,4 @@
-function scr_transformationcheck(argument0) //gml_Script_scr_transformationcheck
+function scr_transformationcheck(argument0) //scr_transformationcheck
 {
     with (argument0)
     {

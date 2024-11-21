@@ -1,4 +1,4 @@
-function action_kill_object() //gml_Script_action_kill_object
+function action_kill_object() //action_kill_object
 {
     instance_destroy()
 }

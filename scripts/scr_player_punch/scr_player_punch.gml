@@ -1,4 +1,4 @@
-function scr_player_punch() //gml_Script_scr_player_punch
+function scr_player_punch() //scr_player_punch
 {
     move = key_left + key_right
     jumpAnim = 1

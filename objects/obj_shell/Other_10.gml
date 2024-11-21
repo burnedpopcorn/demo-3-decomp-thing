@@ -1,4 +1,4 @@
-variable_global_set("sh_help", function(argument0) //gml_Script_anon_gml_Object_obj_shell_Other_10_111_gml_Object_obj_shell_Other_10
+variable_global_set("sh_help", function(argument0) //anon_gml_Object_obj_shell_Other_10_111_gml_Object_obj_shell_Other_10
 {
     if (array_length(argument0) > 1)
     {
@@ -56,7 +56,7 @@ variable_global_set("sh_help", function(argument0) //gml_Script_anon_gml_Object_
     }
 }
 )
-variable_global_set("meta_help", function() //gml_Script_anon_gml_Object_obj_shell_Other_10_1863_gml_Object_obj_shell_Other_10
+variable_global_set("meta_help", function() //anon_gml_Object_obj_shell_Other_10_1863_gml_Object_obj_shell_Other_10
 {
     return 
     {
@@ -67,7 +67,7 @@ variable_global_set("meta_help", function() //gml_Script_anon_gml_Object_obj_she
     };
 }
 )
-variable_global_set("sh_clear", function(argument0) //gml_Script_anon_gml_Object_obj_shell_Other_10_2189_gml_Object_obj_shell_Other_10
+variable_global_set("sh_clear", function(argument0) //anon_gml_Object_obj_shell_Other_10_2189_gml_Object_obj_shell_Other_10
 {
     if (array_length(argument0) > 1 && argument0[1] == "all")
     {
@@ -85,7 +85,7 @@ variable_global_set("sh_clear", function(argument0) //gml_Script_anon_gml_Object
     }
 }
 )
-variable_global_set("meta_clear", function() //gml_Script_anon_gml_Object_obj_shell_Other_10_2577_gml_Object_obj_shell_Other_10
+variable_global_set("meta_clear", function() //anon_gml_Object_obj_shell_Other_10_2577_gml_Object_obj_shell_Other_10
 {
     return 
     {
@@ -96,7 +96,7 @@ variable_global_set("meta_clear", function() //gml_Script_anon_gml_Object_obj_sh
     };
 }
 )
-variable_global_set("sh_shell_set_width", function(argument0) //gml_Script_anon_gml_Object_obj_shell_Other_10_2908_gml_Object_obj_shell_Other_10
+variable_global_set("sh_shell_set_width", function(argument0) //anon_gml_Object_obj_shell_Other_10_2908_gml_Object_obj_shell_Other_10
 {
     if (array_length(argument0) > 1)
     {
@@ -109,7 +109,7 @@ variable_global_set("sh_shell_set_width", function(argument0) //gml_Script_anon_
         return "No argument provided.";
 }
 )
-variable_global_set("meta_shell_set_width", function() //gml_Script_anon_gml_Object_obj_shell_Other_10_3198_gml_Object_obj_shell_Other_10
+variable_global_set("meta_shell_set_width", function() //anon_gml_Object_obj_shell_Other_10_3198_gml_Object_obj_shell_Other_10
 {
     return 
     {
@@ -119,7 +119,7 @@ variable_global_set("meta_shell_set_width", function() //gml_Script_anon_gml_Obj
     };
 }
 )
-variable_global_set("sh_shell_set_height", function(argument0) //gml_Script_anon_gml_Object_obj_shell_Other_10_3478_gml_Object_obj_shell_Other_10
+variable_global_set("sh_shell_set_height", function(argument0) //anon_gml_Object_obj_shell_Other_10_3478_gml_Object_obj_shell_Other_10
 {
     if (array_length(argument0) > 1)
     {
@@ -132,7 +132,7 @@ variable_global_set("sh_shell_set_height", function(argument0) //gml_Script_anon
         return "No argument provided.";
 }
 )
-variable_global_set("meta_shell_set_height", function() //gml_Script_anon_gml_Object_obj_shell_Other_10_3770_gml_Object_obj_shell_Other_10
+variable_global_set("meta_shell_set_height", function() //anon_gml_Object_obj_shell_Other_10_3770_gml_Object_obj_shell_Other_10
 {
     return 
     {
@@ -142,7 +142,7 @@ variable_global_set("meta_shell_set_height", function() //gml_Script_anon_gml_Ob
     };
 }
 )
-variable_global_set("sh_shell_set_anchor_v", function(argument0) //gml_Script_anon_gml_Object_obj_shell_Other_10_4064_gml_Object_obj_shell_Other_10
+variable_global_set("sh_shell_set_anchor_v", function(argument0) //anon_gml_Object_obj_shell_Other_10_4064_gml_Object_obj_shell_Other_10
 {
     if (array_length(argument0) > 1)
     {
@@ -156,7 +156,7 @@ variable_global_set("sh_shell_set_anchor_v", function(argument0) //gml_Script_an
         return "No argument provided.";
 }
 )
-variable_global_set("meta_shell_set_anchor_v", function() //gml_Script_anon_gml_Object_obj_shell_Other_10_4452_gml_Object_obj_shell_Other_10
+variable_global_set("meta_shell_set_anchor_v", function() //anon_gml_Object_obj_shell_Other_10_4452_gml_Object_obj_shell_Other_10
 {
     return 
     {
@@ -167,7 +167,7 @@ variable_global_set("meta_shell_set_anchor_v", function() //gml_Script_anon_gml_
     };
 }
 )
-variable_global_set("sh_shell_set_anchor_h", function(argument0) //gml_Script_anon_gml_Object_obj_shell_Other_10_4808_gml_Object_obj_shell_Other_10
+variable_global_set("sh_shell_set_anchor_h", function(argument0) //anon_gml_Object_obj_shell_Other_10_4808_gml_Object_obj_shell_Other_10
 {
     if (array_length(argument0) > 1)
     {
@@ -181,7 +181,7 @@ variable_global_set("sh_shell_set_anchor_h", function(argument0) //gml_Script_an
         return "No argument provided.";
 }
 )
-variable_global_set("meta_shell_set_anchor_h", function() //gml_Script_anon_gml_Object_obj_shell_Other_10_5196_gml_Object_obj_shell_Other_10
+variable_global_set("meta_shell_set_anchor_h", function() //anon_gml_Object_obj_shell_Other_10_5196_gml_Object_obj_shell_Other_10
 {
     return 
     {

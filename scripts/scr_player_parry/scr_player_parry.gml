@@ -1,4 +1,4 @@
-function scr_player_parry() //gml_Script_scr_player_parry
+function scr_player_parry() //scr_player_parry
 {
     var localvargrabbedby = 1
     if (object_index == obj_player2)

@@ -1,4 +1,4 @@
-function rousr_dissonance_respond_to_join() //gml_Script_rousr_dissonance_respond_to_join
+function rousr_dissonance_respond_to_join() //rousr_dissonance_respond_to_join
 {
     var _user_id = argument[0]
     var _reply = argument[1]

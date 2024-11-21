@@ -1,4 +1,4 @@
-function scr_desert_shader() //gml_Script_scr_desert_shader
+function scr_desert_shader() //scr_desert_shader
 {
     if (object_index != obj_camera)
         return;

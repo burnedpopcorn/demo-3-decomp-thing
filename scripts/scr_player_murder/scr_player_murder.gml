@@ -1,4 +1,4 @@
-function scr_player_murder() //gml_Script_scr_player_murder
+function scr_player_murder() //scr_player_murder
 {
     landAnim = 0
     if grounded

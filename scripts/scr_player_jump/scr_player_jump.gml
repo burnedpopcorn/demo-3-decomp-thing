@@ -1,4 +1,4 @@
-function scr_player_jump() //gml_Script_scr_player_jump
+function scr_player_jump() //scr_player_jump
 {
     if (momemtum == 0)
         hsp = move * movespeed

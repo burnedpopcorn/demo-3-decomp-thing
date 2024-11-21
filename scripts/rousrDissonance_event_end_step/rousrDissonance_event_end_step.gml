@@ -1,4 +1,4 @@
-function rousrDissonance_event_end_step() //gml_Script_rousrDissonance_event_end_step
+function rousrDissonance_event_end_step() //rousrDissonance_event_end_step
 {
     if (Is_dirty && Is_ready)
     {

@@ -1,4 +1,4 @@
-function scr_player_chainsawpogo() //gml_Script_scr_player_chainsawpogo
+function scr_player_chainsawpogo() //scr_player_chainsawpogo
 {
 }
 

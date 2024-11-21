@@ -1,5 +1,5 @@
 flags.do_once_per_save = true
-output = function() //gml_Script_anon_gml_RoomCC_sanctum_7_1_0_Create_41_gml_RoomCC_sanctum_7_1_0_Create
+output = function() //anon_gml_RoomCC_sanctum_7_1_0_Create_41_gml_RoomCC_sanctum_7_1_0_Create
 {
     repeat (6)
     {

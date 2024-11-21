@@ -1,4 +1,4 @@
-function scr_playerreset() //gml_Script_scr_playerreset
+function scr_playerreset() //scr_playerreset
 {
     if instance_exists(obj_endlevelfade)
         instance_destroy(obj_endlevelfade)

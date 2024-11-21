@@ -1,10 +1,10 @@
-condition = function() //gml_Script_anon_gml_RoomCC_factory_4_1_Create_12_gml_RoomCC_factory_4_1_Create
+condition = function() //anon_gml_RoomCC_factory_4_1_Create_12_gml_RoomCC_factory_4_1_Create
 {
     var player = (global.coop == false ? obj_player1 : instance_nearest(x, y, obj_player))
     return (place_meeting(x, y, player) && player.state == (18 << 0));
 }
 
-output = function() //gml_Script_anon_gml_RoomCC_factory_4_1_Create_204_gml_RoomCC_factory_4_1_Create
+output = function() //anon_gml_RoomCC_factory_4_1_Create_204_gml_RoomCC_factory_4_1_Create
 {
     with (obj_secreteye)
     {

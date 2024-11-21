@@ -1,4 +1,4 @@
-function __background_set(argument0, argument1, argument2) //gml_Script___background_set
+function __background_set(argument0, argument1, argument2) //__background_set
 {
     var __prop = argument0
     var __bind = argument1

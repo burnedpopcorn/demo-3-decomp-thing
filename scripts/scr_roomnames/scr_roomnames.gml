@@ -1,5 +1,5 @@
 /*
-function scr_roomnames(argument0) //gml_Script_scr_roomnames
+function scr_roomnames(argument0) //scr_roomnames
 {
     if (argument0 == undefined)
         argument0 = room

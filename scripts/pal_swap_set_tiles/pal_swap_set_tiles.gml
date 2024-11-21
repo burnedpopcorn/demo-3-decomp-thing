@@ -1,4 +1,4 @@
-function pal_swap_set_tiles() //gml_Script_pal_swap_set_tiles
+function pal_swap_set_tiles() //pal_swap_set_tiles
 {
     var _pal_sprite = argument[0]
     var _pal_index = argument[1]

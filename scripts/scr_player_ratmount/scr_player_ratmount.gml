@@ -1,4 +1,4 @@
-function scr_player_ratmount() //gml_Script_scr_player_ratmount
+function scr_player_ratmount() //scr_player_ratmount
 {
     image_speed = 0.35
     if (sprite_index != spr_gustavo_bounce && sprite_index != spr_gustavo_ball && sprite_index != spr_gustavo_bouncewall && sprite_index != spr_gustavo_dash)

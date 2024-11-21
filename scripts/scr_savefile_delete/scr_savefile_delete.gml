@@ -1,4 +1,4 @@
-function scr_savefile_delete() //gml_Script_scr_savefile_delete
+function scr_savefile_delete() //scr_savefile_delete
 {
     scr_getinput()
     if (((-key_left2) || keyboard_check_pressed(vk_left)) && delete_optionselected > 0 && global.savefilechoosen == false && (!key_jump2))

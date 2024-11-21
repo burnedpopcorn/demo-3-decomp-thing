@@ -1,4 +1,4 @@
-function rousrDissonance_event_async_social() //gml_Script_rousrDissonance_event_async_social
+function rousrDissonance_event_async_social() //rousrDissonance_event_async_social
 {
     var _discord_event = ds_map_find_value(async_load, "discord_event")
     if (_discord_event == undefined)

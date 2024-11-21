@@ -1,4 +1,4 @@
-function scr_player_barrelmach1() //gml_Script_scr_player_barrelmach1
+function scr_player_barrelmach1() //scr_player_barrelmach1
 {
     hsp = image_xscale * movespeed
     if (movespeed <= 8)

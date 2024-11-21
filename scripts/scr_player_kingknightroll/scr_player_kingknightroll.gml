@@ -1,4 +1,4 @@
-function scr_player_kingknightroll() //gml_Script_scr_player_kingknightroll
+function scr_player_kingknightroll() //scr_player_kingknightroll
 {
     if (movespeed < 11 && grounded)
         movespeed += 0.5

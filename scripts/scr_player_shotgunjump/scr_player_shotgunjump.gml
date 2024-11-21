@@ -1,4 +1,4 @@
-function scr_player_shotgunjump() //gml_Script_scr_player_shotgunjump
+function scr_player_shotgunjump() //scr_player_shotgunjump
 {
     move = key_left + key_right
     hsp = move * movespeed

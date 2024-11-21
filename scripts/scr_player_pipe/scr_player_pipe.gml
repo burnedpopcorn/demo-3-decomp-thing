@@ -1,4 +1,4 @@
-function scr_player_pipe() //gml_Script_scr_player_pipe
+function scr_player_pipe() //scr_player_pipe
 {
     mach2 = 0
     landAnim = 0

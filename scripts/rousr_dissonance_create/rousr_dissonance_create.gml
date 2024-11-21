@@ -1,4 +1,4 @@
-function rousr_dissonance_create() //gml_Script_rousr_dissonance_create
+function rousr_dissonance_create() //rousr_dissonance_create
 {
     var _application_id = string(argument[0])
     var _steam_id = (argument_count > 1 ? argument[1] : "")

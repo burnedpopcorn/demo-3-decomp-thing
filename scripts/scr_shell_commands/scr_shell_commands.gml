@@ -5,7 +5,7 @@ while room_exists(i)
         global.roomlist[i] = room_get_name(i)
     i++
 }
-function sh_hud_style(argument0) //gml_Script_sh_hud_style
+function sh_hud_style(argument0) //sh_hud_style
 {
     var arg1 = argument0[1]
     switch arg1
@@ -38,7 +38,7 @@ function sh_hud_style(argument0) //gml_Script_sh_hud_style
     ini_close()
 }
 
-function meta_hud_style() //gml_Script_meta_hud_style
+function meta_hud_style() //meta_hud_style
 {
     return 
     {
@@ -49,7 +49,7 @@ function meta_hud_style() //gml_Script_meta_hud_style
     };
 }
 
-function sh_groundpound_style(argument0) //gml_Script_sh_groundpound_style
+function sh_groundpound_style(argument0) //sh_groundpound_style
 {
     var arg1 = argument0[1]
     switch arg1
@@ -71,7 +71,7 @@ function sh_groundpound_style(argument0) //gml_Script_sh_groundpound_style
     ini_close()
 }
 
-function meta_groundpound_style() //gml_Script_meta_groundpound_style
+function meta_groundpound_style() //meta_groundpound_style
 {
     return 
     {
@@ -82,7 +82,7 @@ function meta_groundpound_style() //gml_Script_meta_groundpound_style
     };
 }
 
-function sh_toggle_heatmeter(argument0) //gml_Script_sh_toggle_heatmeter
+function sh_toggle_heatmeter(argument0) //sh_toggle_heatmeter
 {
     var arg1 = argument0[1]
     switch arg1
@@ -106,7 +106,7 @@ function sh_toggle_heatmeter(argument0) //gml_Script_sh_toggle_heatmeter
     ini_close()
 }
 
-function meta_toggle_heatmeter() //gml_Script_meta_toggle_heatmeter
+function meta_toggle_heatmeter() //meta_toggle_heatmeter
 {
     return 
     {
@@ -117,7 +117,7 @@ function meta_toggle_heatmeter() //gml_Script_meta_toggle_heatmeter
     };
 }
 
-function sh_hitstun_timer(argument0) //gml_Script_sh_hitstun_timer
+function sh_hitstun_timer(argument0) //sh_hitstun_timer
 {
     var arg1 = argument0[1]
     global.defaulttime = real(string_digits(arg1))
@@ -126,7 +126,7 @@ function sh_hitstun_timer(argument0) //gml_Script_sh_hitstun_timer
     ini_close()
 }
 
-function meta_hitstun_timer() //gml_Script_meta_hitstun_timer
+function meta_hitstun_timer() //meta_hitstun_timer
 {
     return 
     {
@@ -137,7 +137,7 @@ function meta_hitstun_timer() //gml_Script_meta_hitstun_timer
     };
 }
 
-function sh_voice_frequency(argument0) //gml_Script_sh_voice_frequency
+function sh_voice_frequency(argument0) //sh_voice_frequency
 {
     var arg1 = argument0[1]
     global.quipsfrequency = real(string_digits(arg1))
@@ -146,7 +146,7 @@ function sh_voice_frequency(argument0) //gml_Script_sh_voice_frequency
     ini_close()
 }
 
-function meta_voice_frequency() //gml_Script_meta_voice_frequency
+function meta_voice_frequency() //meta_voice_frequency
 {
     return 
     {
@@ -157,7 +157,7 @@ function meta_voice_frequency() //gml_Script_meta_voice_frequency
     };
 }
 
-function sh_escape(argument0) //gml_Script_sh_escape
+function sh_escape(argument0) //sh_escape
 {
     var arg0 = string(argument0[1])
     var arg1 = argument0[2]
@@ -199,7 +199,7 @@ function sh_escape(argument0) //gml_Script_sh_escape
         instance_create(x, y, obj_panicchanger)
 }
 
-function meta_escape() //gml_Script_meta_escape
+function meta_escape() //meta_escape
 {
     return 
     {
@@ -210,7 +210,7 @@ function meta_escape() //gml_Script_meta_escape
     };
 }
 
-function sh_timeattack(argument0) //gml_Script_sh_timeattack
+function sh_timeattack(argument0) //sh_timeattack
 {
     var arg1 = argument0[1]
     switch arg1
@@ -231,7 +231,7 @@ function sh_timeattack(argument0) //gml_Script_sh_timeattack
     global.timeattack = arg1
 }
 
-function meta_timeattack() //gml_Script_meta_timeattack
+function meta_timeattack() //meta_timeattack
 {
     return 
     {
@@ -242,7 +242,7 @@ function meta_timeattack() //gml_Script_meta_timeattack
     };
 }
 
-function sh_toggle_collisions(argument0) //gml_Script_sh_toggle_collisions
+function sh_toggle_collisions(argument0) //sh_toggle_collisions
 {
     var arg1 = argument0[1]
     switch arg1
@@ -264,7 +264,7 @@ function sh_toggle_collisions(argument0) //gml_Script_sh_toggle_collisions
     toggle_collision_function()
 }
 
-function meta_toggle_collisions() //gml_Script_meta_toggle_collisions
+function meta_toggle_collisions() //meta_toggle_collisions
 {
     return 
     {
@@ -275,7 +275,7 @@ function meta_toggle_collisions() //gml_Script_meta_toggle_collisions
     };
 }
 
-function toggle_collision_function() //gml_Script_toggle_collision_function
+function toggle_collision_function() //toggle_collision_function
 {
     if (!variable_global_exists("showcollisionarray"))
     {
@@ -309,7 +309,7 @@ function toggle_collision_function() //gml_Script_toggle_collision_function
     layer_set_visible("Tiles_Solid", global.showcollisions)
 }
 
-function sh_toggle_debugmode(argument0) //gml_Script_sh_toggle_debugmode
+function sh_toggle_debugmode(argument0) //sh_toggle_debugmode
 {
     var arg1 = argument0[1]
     switch arg1
@@ -330,7 +330,7 @@ function sh_toggle_debugmode(argument0) //gml_Script_sh_toggle_debugmode
     global.debugmode = arg1
 }
 
-function meta_toggle_debugmode() //gml_Script_meta_toggle_debugmode
+function meta_toggle_debugmode() //meta_toggle_debugmode
 {
     return 
     {
@@ -341,7 +341,7 @@ function meta_toggle_debugmode() //gml_Script_meta_toggle_debugmode
     };
 }
 
-function sh_collect_style(argument0) //gml_Script_sh_collect_style
+function sh_collect_style(argument0) //sh_collect_style
 {
     var arg1 = argument0[1]
     switch arg1
@@ -363,7 +363,7 @@ function sh_collect_style(argument0) //gml_Script_sh_collect_style
     ini_close()
 }
 
-function meta_collect_style() //gml_Script_meta_collect_style
+function meta_collect_style() //meta_collect_style
 {
     return 
     {
@@ -374,7 +374,7 @@ function meta_collect_style() //gml_Script_meta_collect_style
     };
 }
 
-function sh_titlescreen_style(argument0) //gml_Script_sh_titlescreen_style
+function sh_titlescreen_style(argument0) //sh_titlescreen_style
 {
     var arg1 = argument0[1]
     switch arg1
@@ -403,7 +403,7 @@ function sh_titlescreen_style(argument0) //gml_Script_sh_titlescreen_style
     }
 }
 
-function meta_titlescreen_style() //gml_Script_meta_titlescreen_style
+function meta_titlescreen_style() //meta_titlescreen_style
 {
     return 
     {
@@ -414,7 +414,7 @@ function meta_titlescreen_style() //gml_Script_meta_titlescreen_style
     };
 }
 
-function sh_sjumpcancel_style(argument0) //gml_Script_sh_sjumpcancel_style
+function sh_sjumpcancel_style(argument0) //sh_sjumpcancel_style
 {
     var arg1 = argument0[1]
     switch arg1
@@ -436,7 +436,7 @@ function sh_sjumpcancel_style(argument0) //gml_Script_sh_sjumpcancel_style
     ini_close()
 }
 
-function meta_sjumpcancel_style() //gml_Script_meta_sjumpcancel_style
+function meta_sjumpcancel_style() //meta_sjumpcancel_style
 {
     return 
     {
@@ -447,7 +447,7 @@ function meta_sjumpcancel_style() //gml_Script_meta_sjumpcancel_style
     };
 }
 
-function sh_wallclimb_style(argument0) //gml_Script_sh_wallclimb_style
+function sh_wallclimb_style(argument0) //sh_wallclimb_style
 {
     var arg1 = argument0[1]
     switch arg1
@@ -472,7 +472,7 @@ function sh_wallclimb_style(argument0) //gml_Script_sh_wallclimb_style
     ini_close()
 }
 
-function meta_wallclimb_style() //gml_Script_meta_wallclimb_style
+function meta_wallclimb_style() //meta_wallclimb_style
 {
     return 
     {
@@ -483,7 +483,7 @@ function meta_wallclimb_style() //gml_Script_meta_wallclimb_style
     };
 }
 
-function sh_toggle_pitchshift(argument0) //gml_Script_sh_toggle_pitchshift
+function sh_toggle_pitchshift(argument0) //sh_toggle_pitchshift
 {
     var arg1 = argument0[1]
     switch arg1
@@ -507,7 +507,7 @@ function sh_toggle_pitchshift(argument0) //gml_Script_sh_toggle_pitchshift
     ini_close()
 }
 
-function meta_toggle_pitchshift() //gml_Script_meta_toggle_pitchshift
+function meta_toggle_pitchshift() //meta_toggle_pitchshift
 {
     return 
     {
@@ -518,7 +518,7 @@ function meta_toggle_pitchshift() //gml_Script_meta_toggle_pitchshift
     };
 }
 
-function sh_toggle_attackstyle(argument0) //gml_Script_sh_toggle_attackstyle
+function sh_toggle_attackstyle(argument0) //sh_toggle_attackstyle
 {
     var arg1 = argument0[1]
     switch arg1
@@ -542,7 +542,7 @@ function sh_toggle_attackstyle(argument0) //gml_Script_sh_toggle_attackstyle
     ini_close()
 }
 
-function meta_toggle_attackstyle() //gml_Script_meta_toggle_attackstyle
+function meta_toggle_attackstyle() //meta_toggle_attackstyle
 {
     return 
     {
@@ -553,7 +553,7 @@ function meta_toggle_attackstyle() //gml_Script_meta_toggle_attackstyle
     };
 }
 
-function sh_toggle_escapecollect(argument0) //gml_Script_sh_toggle_escapecollect
+function sh_toggle_escapecollect(argument0) //sh_toggle_escapecollect
 {
     var arg1 = argument0[1]
     switch arg1
@@ -577,7 +577,7 @@ function sh_toggle_escapecollect(argument0) //gml_Script_sh_toggle_escapecollect
     ini_close()
 }
 
-function meta_toggle_escapecollect() //gml_Script_meta_toggle_escapecollect
+function meta_toggle_escapecollect() //meta_toggle_escapecollect
 {
     return 
     {

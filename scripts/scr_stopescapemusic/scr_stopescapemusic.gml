@@ -1,4 +1,4 @@
-function scr_stopescapemusic() //gml_Script_scr_stopescapemusic
+function scr_stopescapemusic() //scr_stopescapemusic
 {
     audio_stop_sound(mu_pizzatime)
     audio_stop_sound(mu_noiseescape)

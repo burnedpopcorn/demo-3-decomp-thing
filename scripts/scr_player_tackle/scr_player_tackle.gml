@@ -1,4 +1,4 @@
-function scr_player_tackle() //gml_Script_scr_player_tackle
+function scr_player_tackle() //scr_player_tackle
 {
     switch substate
     {
@@ -12,7 +12,7 @@ function scr_player_tackle() //gml_Script_scr_player_tackle
 
 }
 
-function scr_player_substate_tackle() //gml_Script_scr_player_substate_tackle
+function scr_player_substate_tackle() //scr_player_substate_tackle
 {
     if (character == "P")
     {
@@ -97,7 +97,7 @@ function scr_player_substate_tackle() //gml_Script_scr_player_substate_tackle
     suplexdashtimer += 0.35
 }
 
-function scr_player_substate_bounce() //gml_Script_scr_player_substate_bounce
+function scr_player_substate_bounce() //scr_player_substate_bounce
 {
     hsp = (-xscale) * movespeed
     movespeed = approach(movespeed, 0, 0.25)

@@ -1,4 +1,4 @@
-function scr_playercreate() //gml_Script_scr_playercreate
+function scr_playercreate() //scr_playercreate
 {
     scale = 1
     secreteye = false

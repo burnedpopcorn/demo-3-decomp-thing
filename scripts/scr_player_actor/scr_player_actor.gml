@@ -1,4 +1,4 @@
-function scr_player_actor() //gml_Script_scr_player_actor
+function scr_player_actor() //scr_player_actor
 {
     global.pausecombotime = true
     obj_tv.alarm[1] = 75

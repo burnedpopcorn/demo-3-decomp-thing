@@ -1,4 +1,4 @@
-function scr_player_mach3() //gml_Script_scr_player_mach3
+function scr_player_mach3() //scr_player_mach3
 {
     if ((character == "P" || character == "N") && key_slap2)
     {
@@ -34,12 +34,14 @@ function scr_player_mach3() //gml_Script_scr_player_mach3
         if (windingAnim < 2000)
             windingAnim++
     }
-    if ((!(place_meeting(x, (y + 1), obj_railh))) && (!(place_meeting(x, (y + 1), obj_railh2))))
-        hsp = xscale * movespeed
-    else if place_meeting(x, (y + 1), obj_railh)
-        hsp = xscale * movespeed - 5
-    else if place_meeting(x, (y + 1), obj_railh2)
-        hsp = xscale * movespeed + 5
+	
+    if (!place_meeting(x, y + 1, obj_railh) && !place_meeting(x, y + 1, obj_railh2))
+        hsp = xscale * movespeed;
+    else if (place_meeting(x, y + 1, obj_railh))
+        hsp = (xscale * movespeed) - 5;
+    else if (place_meeting(x, y + 1, obj_railh2))
+        hsp = (xscale * movespeed) + 5;
+		
     mach2 = 100
     momemtum = 1
     move = key_right + key_left
@@ -309,10 +311,10 @@ function scr_player_mach3() //gml_Script_scr_player_mach3
                 instance_create(obj_player.x, obj_player.y, obj_slapstar)
             image_xscale = other.xscale
             other.dashcloudid = id
-            if (place_meeting(other.x, (other.y + 1), obj_boilingwater) && (!(place_meeting(other.x, other.y, obj_boilingwater))))
-                sprite_index = spr_waterdash
-            else if (place_meeting(other.x, (other.y + 1), obj_water) && (!(place_meeting(other.x, other.y, obj_water))))
-                sprite_index = spr_cheesedash
+            if (place_meeting(other.x, other.y + 1, obj_boilingwater) && !place_meeting(other.x, other.y, obj_boilingwater))
+                sprite_index = spr_waterdash;
+            else if (place_meeting(other.x, other.y + 1, obj_water) && !place_meeting(other.x, other.y, obj_water))
+                sprite_index = spr_cheesedash;
         }
     }
     if (!instance_exists(chargeeffectid))

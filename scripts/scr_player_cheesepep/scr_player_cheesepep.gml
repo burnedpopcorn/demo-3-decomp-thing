@@ -1,4 +1,4 @@
-function scr_player_cheesepep() //gml_Script_scr_player_cheesepep
+function scr_player_cheesepep() //scr_player_cheesepep
 {
     mask_index = spr_crouchmask
     key_particles = 0

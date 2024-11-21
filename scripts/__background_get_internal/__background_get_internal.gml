@@ -1,4 +1,4 @@
-function __background_get_internal(argument0, argument1, argument2) //gml_Script___background_get_internal
+function __background_get_internal(argument0, argument1, argument2) //__background_get_internal
 {
     var __prop = argument0
     var __bind = argument1

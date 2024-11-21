@@ -1,4 +1,4 @@
-function rousr_dissonance_set_details(argument0) //gml_Script_rousr_dissonance_set_details
+function rousr_dissonance_set_details(argument0) //rousr_dissonance_set_details
 {
     var _details = argument0
     with (global.__rousr_dissonance)

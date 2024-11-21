@@ -1,4 +1,4 @@
-function scr_baddietauntfakeout() //gml_Script_scr_baddietauntfakeout
+function scr_baddietauntfakeout() //scr_baddietauntfakeout
 {
     with (obj_baddie)
     {
