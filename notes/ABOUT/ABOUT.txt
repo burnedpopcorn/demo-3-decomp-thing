@@ -7,10 +7,6 @@ GameMaker Version used: 2022.0.1.31 (2022 LTS)
 Current Issues:
 
 - conveyor belts are buggy
-- mr.car just randomly teleporting when you hit him
-
-
-
 
 Changes made by burnedpopcorn
 
