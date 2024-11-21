@@ -1,4 +1,4 @@
-function scr_player_machroll() //gml_Script_scr_player_machroll
+function scr_player_machroll() //scr_player_machroll
 {
     switch jetpacking
     {

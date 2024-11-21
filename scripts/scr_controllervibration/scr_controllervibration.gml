@@ -1,4 +1,4 @@
-function scr_controllervibration() //gml_Script_scr_controllervibration
+function scr_controllervibration() //scr_controllervibration
 {
     with (obj_player)
     {

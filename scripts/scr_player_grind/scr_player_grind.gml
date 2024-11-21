@@ -1,4 +1,4 @@
-function scr_player_grind() //gml_Script_scr_player_grind
+function scr_player_grind() //scr_player_grind
 {
     vsp = 0
     machhitAnim = 0

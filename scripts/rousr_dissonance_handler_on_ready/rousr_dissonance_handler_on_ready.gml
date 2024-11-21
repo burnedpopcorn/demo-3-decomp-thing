@@ -1,4 +1,4 @@
-function rousr_dissonance_handler_on_ready() //gml_Script_rousr_dissonance_handler_on_ready
+function rousr_dissonance_handler_on_ready() //rousr_dissonance_handler_on_ready
 {
     var _script_index = argument[0]
     var _user_data = (argument_count > 1 ? argument[1] : undefined)

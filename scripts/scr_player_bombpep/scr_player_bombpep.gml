@@ -1,4 +1,4 @@
-function scr_player_bombpep() //gml_Script_scr_player_bombpep
+function scr_player_bombpep() //scr_player_bombpep
 {
     alarm[8] = 60
     alarm[5] = 2

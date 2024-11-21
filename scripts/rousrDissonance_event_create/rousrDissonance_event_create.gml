@@ -1,4 +1,4 @@
-function rousrDissonance_event_create() //gml_Script_rousrDissonance_event_create
+function rousrDissonance_event_create() //rousrDissonance_event_create
 {
     Discord_initialized = false
     Is_dirty = false

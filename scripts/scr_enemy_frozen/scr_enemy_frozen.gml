@@ -1,4 +1,4 @@
-function scr_enemy_frozen() //gml_Script_scr_enemy_frozen
+function scr_enemy_frozen() //scr_enemy_frozen
 {
     if (global.freezeframe == false)
     {

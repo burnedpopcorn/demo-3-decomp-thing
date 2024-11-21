@@ -1,4 +1,4 @@
-function scr_player_current() //gml_Script_scr_player_current
+function scr_player_current() //scr_player_current
 {
     static movehsp = 0
     static hdir = -1

@@ -1,4 +1,4 @@
-function scr_golf_grabbed() //gml_Script_scr_golf_grabbed
+function scr_golf_grabbed() //scr_golf_grabbed
 {
     with (obj_camera)
         golf = 1

@@ -1,4 +1,4 @@
-function scr_player_jetpack() //gml_Script_scr_player_jetpack
+function scr_player_jetpack() //scr_player_jetpack
 {
     hsp = 0
     mach2 = 0

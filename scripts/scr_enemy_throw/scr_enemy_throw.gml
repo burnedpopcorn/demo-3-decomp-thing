@@ -1,4 +1,4 @@
-function scr_enemy_throw() //gml_Script_scr_enemy_throw
+function scr_enemy_throw() //scr_enemy_throw
 {
     if (!variable_global_exists("throw_frame"))
     {

@@ -1,4 +1,4 @@
-function scr_player_firemouth() //gml_Script_scr_player_firemouth
+function scr_player_firemouth() //scr_player_firemouth
 {
     static add_to = 0
 

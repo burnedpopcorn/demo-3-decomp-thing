@@ -1,4 +1,4 @@
-function scr_slope_ext(argument0, argument1) //gml_Script_scr_slope_ext
+function scr_slope_ext(argument0, argument1) //scr_slope_ext
 {
     var old_x = x
     var old_y = y

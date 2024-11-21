@@ -1,11 +1,11 @@
-condition = function() //gml_Script_anon_gml_RoomCC_desert_secret1_1_Create_12_gml_RoomCC_desert_secret1_1_Create
+condition = function() //anon_gml_RoomCC_desert_secret1_1_Create_12_gml_RoomCC_desert_secret1_1_Create
 {
     return ((!instance_exists(106804)) && (!instance_exists(106803)));
 }
 
-output = function() //gml_Script_anon_gml_RoomCC_desert_secret1_1_Create_116_gml_RoomCC_desert_secret1_1_Create
+output = function() //anon_gml_RoomCC_desert_secret1_1_Create_116_gml_RoomCC_desert_secret1_1_Create
 {
-    with (106821)
+    with (obj_secreteye)//(106821)
     {
         activated = true
         sprite_index = spr_secreteye_spawning

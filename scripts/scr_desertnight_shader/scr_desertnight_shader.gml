@@ -1,4 +1,4 @@
-function scr_desert_foregroundshader_init() //gml_Script_scr_desert_foregroundshader_init
+function scr_desert_foregroundshader_init() //scr_desert_foregroundshader_init
 {
     var layernum = 0
     layers[0] = noone
@@ -21,13 +21,13 @@ function scr_desert_foregroundshader_init() //gml_Script_scr_desert_foregroundsh
 
         }
     }
-    var _f = function(argument0, argument1) //gml_Script_anon_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader_608_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader
+    var _f = function(argument0, argument1) //anon_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader_608_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader
     {
         return (-((layer_get_depth(argument0.u_id) - layer_get_depth(argument1.u_id))));
     }
 
     array_sort(layers, _f)
-    scr_desert_foregroundshader_start = function() //gml_Script_anon_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader_817_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader
+    scr_desert_foregroundshader_start = function() //anon_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader_817_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader
     {
         if (!surface_exists(desert_surface))
             desert_surface = surface_create(room_width, room_height)
@@ -40,7 +40,7 @@ function scr_desert_foregroundshader_init() //gml_Script_scr_desert_foregroundsh
         }
     }
 
-    scr_desert_foregroundshader_end = function() //gml_Script_anon_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader_1275_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader
+    scr_desert_foregroundshader_end = function() //anon_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader_1275_scr_desert_foregroundshader_init_gml_GlobalScript_scr_desertnight_shader
     {
         if (event_type == 8 && event_number == 0)
         {

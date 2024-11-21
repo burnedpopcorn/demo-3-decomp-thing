@@ -1,4 +1,4 @@
-function scr_enemy_hit() //gml_Script_scr_enemy_hit
+function scr_enemy_hit() //scr_enemy_hit
 {
     if (scr_solid(x, (y - 1)) && (sprite_index == flyingspr || sprite_index == hitspr))
     {

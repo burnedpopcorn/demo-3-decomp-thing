@@ -147,7 +147,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(entrance_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -157,7 +157,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(medieval_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -167,7 +167,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(ruin_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -177,7 +177,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(dungeon_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -187,7 +187,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(ancient_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -197,7 +197,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(chateau_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -207,7 +207,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(sanctum_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -217,7 +217,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(strongcold_10)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -227,7 +227,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(resto_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -257,7 +257,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(kungfu_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -267,7 +267,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                     {
                         instance_activate_all()
                         room_goto(factory_1)
-                        script_execute(gml_Script_scr_playerreset)
+                        script_execute(scr_playerreset)
                         pause = 0
                         obj_player1.targetDoor = "A"
                         if instance_exists(obj_player2)
@@ -280,7 +280,7 @@ if (pause == 1 && (!instance_exists(obj_mainconfig)))
                 {
                     instance_activate_all()
                     room_goto(medieval_1)
-                    script_execute(gml_Script_scr_playerreset)
+                    script_execute(scr_playerreset)
                     global.lapping = 0
                     global.laptouched = 0
                     with (obj_camera)

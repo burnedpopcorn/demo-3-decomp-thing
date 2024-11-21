@@ -1,4 +1,4 @@
-function tile_height_checker(argument0, argument1, argument2) //gml_Script_tile_height_checker
+function tile_height_checker(argument0, argument1, argument2) //tile_height_checker
 {
     var _tile = argument2
     var column = sprite_get_height(spr_solidtile) / 32
@@ -14,7 +14,7 @@ function tile_height_checker(argument0, argument1, argument2) //gml_Script_tile_
     }
 }
 
-function tile_meeting_precise(argument0, argument1, argument2) //gml_Script_tile_meeting_precise
+function tile_meeting_precise(argument0, argument1, argument2) //tile_meeting_precise
 {
     if (argument2 == undefined)
         argument2 = "Tiles_Solid"

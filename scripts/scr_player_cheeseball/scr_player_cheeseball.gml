@@ -1,4 +1,4 @@
-function scr_player_cheeseball() //gml_Script_scr_player_cheeseball
+function scr_player_cheeseball() //scr_player_cheeseball
 {
     var size = random_range(0.6, 1.2)
     hsp = xscale * 12

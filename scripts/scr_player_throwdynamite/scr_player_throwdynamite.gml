@@ -1,4 +1,4 @@
-function scr_player_throwdynamite() //gml_Script_scr_player_throwdynamite
+function scr_player_throwdynamite() //scr_player_throwdynamite
 {
     if ((!(place_meeting(x, (y + 1), obj_railh))) && (!(place_meeting(x, (y + 1), obj_railh2))))
         hsp = xscale * movespeed

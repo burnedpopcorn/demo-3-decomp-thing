@@ -1,4 +1,4 @@
-function scr_characterspr(argument0) //gml_Script_scr_characterspr
+function scr_characterspr(argument0) //scr_characterspr
 {
     if (argument0 == undefined)
         argument0 = character

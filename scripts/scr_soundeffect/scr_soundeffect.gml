@@ -1,4 +1,4 @@
-function scr_soundeffect() //gml_Script_scr_soundeffect
+function scr_soundeffect() //scr_soundeffect
 {
     var snd = argument[irandom(argument_count - 1)]
     ini_open("saveData.ini")

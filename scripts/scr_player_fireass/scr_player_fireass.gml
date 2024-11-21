@@ -1,4 +1,4 @@
-function scr_player_fireass() //gml_Script_scr_player_fireass
+function scr_player_fireass() //scr_player_fireass
 {
     buttanim = 100
     image_speed = 0.35

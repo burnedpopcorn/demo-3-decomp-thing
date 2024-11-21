@@ -1,4 +1,4 @@
-function draw_sprite_ext_camera(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8) //gml_Script_draw_sprite_ext_camera
+function draw_sprite_ext_camera(argument0, argument1, argument2, argument3, argument4, argument5, argument6, argument7, argument8) //draw_sprite_ext_camera
 {
     var _sprite_index = argument0
     var _image_index = argument1

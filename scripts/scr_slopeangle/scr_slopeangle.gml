@@ -1,4 +1,4 @@
-function scr_slopeangle() //gml_Script_scr_slopeangle
+function scr_slopeangle() //scr_slopeangle
 {
     var array = 0
     var checkside = -1

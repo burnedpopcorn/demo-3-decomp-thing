@@ -1,4 +1,4 @@
-function scr_player_trick() //gml_Script_scr_player_trick
+function scr_player_trick() //scr_player_trick
 {
     hsp = xscale * movespeed
     if (key_taunt2 && (!((sprite_index == spr_supertaunt1 || sprite_index == spr_supertaunt2 || sprite_index == spr_supertaunt3 || sprite_index == spr_supertaunt4))))

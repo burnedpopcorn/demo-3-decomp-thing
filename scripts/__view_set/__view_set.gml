@@ -1,4 +1,4 @@
-function __view_set(argument0, argument1, argument2) //gml_Script___view_set
+function __view_set(argument0, argument1, argument2) //__view_set
 {
     var __prop = argument0
     var __index = argument1

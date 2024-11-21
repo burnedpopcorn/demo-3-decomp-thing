@@ -1,14 +1,14 @@
-function scr_shell_openconsole() //gml_Script_scr_shell_openconsole
+function scr_shell_openconsole() //scr_shell_openconsole
 {
     global.shellactivate = true
 }
 
-function scr_shell_closeconsole() //gml_Script_scr_shell_closeconsole
+function scr_shell_closeconsole() //scr_shell_closeconsole
 {
     global.shellactivate = false
 }
 
-function scr_fartcommand(argument0) //gml_Script_scr_fartcommand
+function scr_fartcommand(argument0) //scr_fartcommand
 {
     if (argument0 == undefined)
         argument0 = "BALLS"
@@ -26,10 +26,10 @@ function scr_fartcommand(argument0) //gml_Script_scr_fartcommand
 
 }
 
-function scr_shell_roomstart() //gml_Script_scr_shell_roomstart
+function scr_shell_roomstart() //scr_shell_roomstart
 {
     layer_set_visible("Tiles_Solid", global.showcollisions)
-    startscript = function() //gml_Script_anon_scr_shell_roomstart_gml_GlobalScript_scr_shell_functions_519_scr_shell_roomstart_gml_GlobalScript_scr_shell_functions
+    startscript = function() //anon_scr_shell_roomstart_gml_GlobalScript_scr_shell_functions_519_scr_shell_roomstart_gml_GlobalScript_scr_shell_functions
     {
         if ((!variable_global_exists("solid_tile_surface")) || (!surface_exists(global.solid_tile_surface)))
             global.solid_tile_surface = surface_create(room_width, room_height)
@@ -40,7 +40,7 @@ function scr_shell_roomstart() //gml_Script_scr_shell_roomstart
         }
     }
 
-    endscript = function() //gml_Script_anon_scr_shell_roomstart_gml_GlobalScript_scr_shell_functions_875_scr_shell_roomstart_gml_GlobalScript_scr_shell_functions
+    endscript = function() //anon_scr_shell_roomstart_gml_GlobalScript_scr_shell_functions_875_scr_shell_roomstart_gml_GlobalScript_scr_shell_functions
     {
         if (event_type == 8 && event_number == 0)
         {

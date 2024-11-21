@@ -1,4 +1,4 @@
-function scr_player_barrelslipnslide() //gml_Script_scr_player_barrelslipnslide
+function scr_player_barrelslipnslide() //scr_player_barrelslipnslide
 {
     mask_index = spr_player_mask
     hsp = image_xscale * movespeed

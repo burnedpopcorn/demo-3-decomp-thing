@@ -1,4 +1,4 @@
-function tile_meeting_line(argument0, argument1, argument2, argument3, argument4) //gml_Script_tile_meeting_line
+function tile_meeting_line(argument0, argument1, argument2, argument3, argument4) //tile_meeting_line
 {
     if (argument4 == undefined)
         argument4 = "Tiles_Solid"

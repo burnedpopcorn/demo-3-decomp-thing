@@ -1,6 +1,6 @@
-output = function() //gml_Script_anon_gml_RoomCC_desert_1_6_Create_205_gml_RoomCC_desert_1_6_Create
+output = function()
 {
-    with (127402)
+    with (obj_secreteye)//(127402)
     {
         activated = true
         sprite_index = spr_secreteye_spawning

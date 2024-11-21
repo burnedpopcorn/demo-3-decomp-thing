@@ -1,4 +1,4 @@
-function scr_enemy_grabbed() //gml_Script_scr_enemy_grabbed
+function scr_enemy_grabbed() //scr_enemy_grabbed
 {
     if (grabbedby == 1)
     {

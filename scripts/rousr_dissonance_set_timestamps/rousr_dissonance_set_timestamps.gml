@@ -1,4 +1,4 @@
-function rousr_dissonance_set_timestamps() //gml_Script_rousr_dissonance_set_timestamps
+function rousr_dissonance_set_timestamps() //rousr_dissonance_set_timestamps
 {
     var _secondsFromNowStart = argument[0]
     var _secondsFromNowEnd = (argument_count > 1 ? argument[1] : undefined)

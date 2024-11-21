@@ -15,7 +15,7 @@ _cam_x = camera_get_view_x(view_camera[0])
 _cam_y = camera_get_view_y(view_camera[0])
 _centeredcam_x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2
 _centeredcam_y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2
-default_function = function(argument0) //gml_Script_anon_gml_Object_obj_parallax_Create_0_629_gml_Object_obj_parallax_Create_0
+default_function = function(argument0) //anon_gml_Object_obj_parallax_Create_0_629_gml_Object_obj_parallax_Create_0
 {
     if (argument0 == undefined)
         argument0 = -4

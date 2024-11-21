@@ -1,4 +1,4 @@
-function scr_commonenemy() //gml_Script_scr_commonenemy
+function scr_commonenemy() //scr_commonenemy
 {
     scr_enemystates()
     if (global.freezeframe == false)

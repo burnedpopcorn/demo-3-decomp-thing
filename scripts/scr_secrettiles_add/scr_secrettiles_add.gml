@@ -1,4 +1,4 @@
-function scr_secrettiles_add() //gml_Script_scr_secrettiles_add
+function scr_secrettiles_add() //scr_secrettiles_add
 {
     if (object_index != obj_secretwall)
         return false;

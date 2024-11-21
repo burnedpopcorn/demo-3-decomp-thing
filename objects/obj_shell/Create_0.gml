@@ -37,7 +37,7 @@ metaMovedRight = false
 event_user(0)
 if (instance_number(object_index) > 1)
     instance_destroy()
-function open() //gml_Script_open_gml_Object_obj_shell_Create_0
+function open() //open_gml_Object_obj_shell_Create_0
 {
     isOpen = true
     keyboard_string = ""
@@ -45,14 +45,14 @@ function open() //gml_Script_open_gml_Object_obj_shell_Create_0
         self.openFunction()
 }
 
-function close() //gml_Script_close_gml_Object_obj_shell_Create_0
+function close() //close_gml_Object_obj_shell_Create_0
 {
     isOpen = false
     if (!is_undefined(closeFunction))
         self.closeFunction()
 }
 
-function close_autocomplete() //gml_Script_close_autocomplete_gml_Object_obj_shell_Create_0
+function close_autocomplete() //close_autocomplete_gml_Object_obj_shell_Create_0
 {
     array_resize(filteredSuggestions, 0)
 }
@@ -71,7 +71,7 @@ for (var i = 0; i < array_length(globalVariables); i++)
         variable_struct_set(functionData, name, variable_instance_get(-5, globalVariables[i])())
     }
 }
-function updateFilteredSuggestions() //gml_Script_updateFilteredSuggestions_gml_Object_obj_shell_Create_0
+function updateFilteredSuggestions() //updateFilteredSuggestions_gml_Object_obj_shell_Create_0
 {
     array_resize(filteredSuggestions, 0)
     autocompleteMaxWidth = 0
@@ -121,7 +121,7 @@ function updateFilteredSuggestions() //gml_Script_updateFilteredSuggestions_gml_
     array_sort(filteredSuggestions, true)
 }
 
-function findCommonPrefix() //gml_Script_findCommonPrefix_gml_Object_obj_shell_Create_0
+function findCommonPrefix() //findCommonPrefix_gml_Object_obj_shell_Create_0
 {
     if (array_length(filteredSuggestions) == 0)
         return "";
@@ -148,7 +148,7 @@ function findCommonPrefix() //gml_Script_findCommonPrefix_gml_Object_obj_shell_C
     return result;
 }
 
-function keyComboPressed(argument0, argument1) //gml_Script_keyComboPressed_gml_Object_obj_shell_Create_0
+function keyComboPressed(argument0, argument1) //keyComboPressed_gml_Object_obj_shell_Create_0
 {
     for (var i = 0; i < array_length(argument0); i++)
     {
@@ -168,7 +168,7 @@ function keyComboPressed(argument0, argument1) //gml_Script_keyComboPressed_gml_
 
 delayFrame = 0
 delayFrames = 1
-function keyboardCheckDelay(argument0) //gml_Script_keyboardCheckDelay_gml_Object_obj_shell_Create_0
+function keyboardCheckDelay(argument0) //keyboardCheckDelay_gml_Object_obj_shell_Create_0
 {
     if keyboard_check_released(argument0)
     {
@@ -192,12 +192,12 @@ function keyboardCheckDelay(argument0) //gml_Script_keyboardCheckDelay_gml_Objec
     return false;
 }
 
-function shell_properties_hash() //gml_Script_shell_properties_hash_gml_Object_obj_shell_Create_0
+function shell_properties_hash() //shell_properties_hash_gml_Object_obj_shell_Create_0
 {
     return md5_string_unicode(string(width) + "~" + string(height) + "~" + string(anchorMargin) + "~" + string(consolePaddingH) + "~" + string(scrollbarWidth) + "~" + string(consolePaddingV) + "~" + string(screenAnchorPointH) + "~" + string(screenAnchorPointV));
 }
 
-function recalculate_shell_properties() //gml_Script_recalculate_shell_properties_gml_Object_obj_shell_Create_0
+function recalculate_shell_properties() //recalculate_shell_properties_gml_Object_obj_shell_Create_0
 {
     var screenCenterX = display_get_gui_width() / 2
     var screenCenterY = display_get_gui_height() / 2
@@ -240,7 +240,7 @@ function recalculate_shell_properties() //gml_Script_recalculate_shell_propertie
     shellPropertiesHash = self.shell_properties_hash()
 }
 
-function calculate_scroll_from_suggestion_index() //gml_Script_calculate_scroll_from_suggestion_index_gml_Object_obj_shell_Create_0
+function calculate_scroll_from_suggestion_index() //calculate_scroll_from_suggestion_index_gml_Object_obj_shell_Create_0
 {
     if (suggestionIndex == 0)
         autocompleteScrollPosition = 0
@@ -250,7 +250,7 @@ function calculate_scroll_from_suggestion_index() //gml_Script_calculate_scroll_
         autocompleteScrollPosition -= suggestionIndex
 }
 
-function confirmCurrentSuggestion() //gml_Script_confirmCurrentSuggestion_gml_Object_obj_shell_Create_0
+function confirmCurrentSuggestion() //confirmCurrentSuggestion_gml_Object_obj_shell_Create_0
 {
     var spaceCount = string_count(" ", consoleString)
     consoleString = ""
@@ -260,7 +260,7 @@ function confirmCurrentSuggestion() //gml_Script_confirmCurrentSuggestion_gml_Ob
     cursorPos = string_length(consoleString) + 1
 }
 
-function string_split(argument0, argument1) //gml_Script_string_split_gml_Object_obj_shell_Create_0
+function string_split(argument0, argument1) //string_split_gml_Object_obj_shell_Create_0
 {
     var slot = 0
     var splits = []
@@ -288,7 +288,7 @@ function string_split(argument0, argument1) //gml_Script_string_split_gml_Object
     return splits;
 }
 
-function array_contains(argument0, argument1) //gml_Script_array_contains_gml_Object_obj_shell_Create_0
+function array_contains(argument0, argument1) //array_contains_gml_Object_obj_shell_Create_0
 {
     for (var i = 0; i < array_length(argument0); i++)
     {
@@ -298,7 +298,7 @@ function array_contains(argument0, argument1) //gml_Script_array_contains_gml_Ob
     return false;
 }
 
-function remap(argument0, argument1, argument2, argument3, argument4) //gml_Script_remap_gml_Object_obj_shell_Create_0
+function remap(argument0, argument1, argument2, argument3, argument4) //remap_gml_Object_obj_shell_Create_0
 {
     var _t = (argument0 - argument1) / (argument2 - argument1)
     return lerp(argument3, argument4, _t);

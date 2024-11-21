@@ -1,4 +1,4 @@
-function scr_player_wallcling() //gml_Script_scr_player_wallcling
+function scr_player_wallcling() //scr_player_wallcling
 {
     hsp = 0
     if (!(place_meeting((x - xscale), y, obj_unclimbablewall)))

@@ -1,4 +1,4 @@
-function layer_tilemap_get_id_fixed(argument0) //gml_Script_layer_tilemap_get_id_fixed
+function layer_tilemap_get_id_fixed(argument0) //layer_tilemap_get_id_fixed
 {
     if layer_exists(argument0)
     {
@@ -14,7 +14,7 @@ function layer_tilemap_get_id_fixed(argument0) //gml_Script_layer_tilemap_get_id
     return -1;
 }
 
-function layer_background_get_id_fixed(argument0) //gml_Script_layer_background_get_id_fixed
+function layer_background_get_id_fixed(argument0) //layer_background_get_id_fixed
 {
     if layer_exists(argument0)
     {

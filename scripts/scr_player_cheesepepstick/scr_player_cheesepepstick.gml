@@ -1,4 +1,4 @@
-function scr_player_cheesepepstick() //gml_Script_scr_player_cheesepepstick
+function scr_player_cheesepepstick() //scr_player_cheesepepstick
 {
     alarm[5] = 2
     alarm[7] = 60

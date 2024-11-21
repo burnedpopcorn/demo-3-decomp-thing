@@ -1,4 +1,4 @@
-function rousr_dissonance_set_match_secret() //gml_Script_rousr_dissonance_set_match_secret
+function rousr_dissonance_set_match_secret() //rousr_dissonance_set_match_secret
 {
     var _match_secret = argument[0]
     var _is_instance = argument[1]

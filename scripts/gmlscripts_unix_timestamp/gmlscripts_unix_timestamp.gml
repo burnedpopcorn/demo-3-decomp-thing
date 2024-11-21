@@ -1,4 +1,4 @@
-function gmlscripts_unix_timestamp() //gml_Script_gmlscripts_unix_timestamp
+function gmlscripts_unix_timestamp() //gmlscripts_unix_timestamp
 {
     var datetime = undefined
     var timezone = date_get_timezone()

@@ -1,5 +1,5 @@
 var _return;
-function scr_tileslope(argument0, argument1) //gml_Script_scr_tileslope
+function scr_tileslope(argument0, argument1) //scr_tileslope
 {
     var old_x = x
     var old_y = y

@@ -1,4 +1,4 @@
-function scr_player_ejected() //gml_Script_scr_player_ejected
+function scr_player_ejected() //scr_player_ejected
 {
     if (y > (room_height + 100) && (!instance_exists(obj_fadeout)))
     {

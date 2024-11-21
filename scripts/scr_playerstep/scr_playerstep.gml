@@ -1,4 +1,4 @@
-function scr_playerstep() //gml_Script_scr_playerstep
+function scr_playerstep() //scr_playerstep
 {
     if (actor == false)
     {
@@ -482,7 +482,7 @@ function scr_playerstep() //gml_Script_scr_playerstep
     {
         global.levelname = "none"
         global.fakepeppino = 0
-        script_execute(gml_Script_scr_playerreset)
+        script_execute(scr_playerreset)
         with (obj_player)
             targetDoor = "start"
         room = obj_player1.backtohubroom

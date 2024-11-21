@@ -1,4 +1,4 @@
-function scr_enemy_shake() //gml_Script_scr_enemy_shake
+function scr_enemy_shake() //scr_enemy_shake
 {
     if (grabbedby == 1)
         var player = obj_player1

@@ -1,4 +1,4 @@
-function scr_sleep() //gml_Script_scr_sleep
+function scr_sleep() //scr_sleep
 {
     with (obj_camera)
     {

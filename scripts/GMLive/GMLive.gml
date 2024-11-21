@@ -1,4 +1,4 @@
-function gml_macro(argument0, argument1, argument2, argument3) constructor //gml_Script_gml_macro
+function gml_macro(argument0, argument1, argument2, argument3) constructor //gml_macro
 {
     static h_name = undefined
     static h_node = undefined
@@ -8,7 +8,7 @@ function gml_macro(argument0, argument1, argument2, argument3) constructor //gml
 
 }
 
-function gml_source(argument0, argument1, argument2, argument3) constructor //gml_Script_gml_source
+function gml_source(argument0, argument1, argument2, argument3) constructor //gml_source
 {
     static h_name = undefined
     static h_code = undefined
@@ -18,12 +18,12 @@ function gml_source(argument0, argument1, argument2, argument3) constructor //gm
     static h_tokens = undefined
     static h_token_count = undefined
     static h___eof = undefined
-    static h_get_eof = function() //gml_Script_anon_gml_source_gml_GlobalScript_GMLive_19046_gml_source_gml_GlobalScript_GMLive
+    static h_get_eof = function() //anon_gml_source_gml_GlobalScript_GMLive_19046_gml_source_gml_GlobalScript_GMLive
     {
         return undefined;
     }
 
-    static h_to_string = function() //gml_Script_anon_gml_source_gml_GlobalScript_GMLive_19254_gml_source_gml_GlobalScript_GMLive
+    static h_to_string = function() //anon_gml_source_gml_GlobalScript_GMLive_19254_gml_source_gml_GlobalScript_GMLive
     {
         return undefined;
     }
@@ -34,11 +34,11 @@ function gml_source(argument0, argument1, argument2, argument3) constructor //gm
         argument3 = false
 }
 
-function shader_set_live(argument0, argument1) //gml_Script_shader_set_live
+function shader_set_live(argument0, argument1) //shader_set_live
 {
 }
 
-function live_validate_scripts() //gml_Script_live_validate_scripts
+function live_validate_scripts() //live_validate_scripts
 {
 }
 

@@ -1,4 +1,4 @@
-function scr_player_climbwall() //gml_Script_scr_player_climbwall
+function scr_player_climbwall() //scr_player_climbwall
 {
     var left = key_left
     var right = key_right

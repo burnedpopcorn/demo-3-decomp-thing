@@ -1,4 +1,4 @@
-function scr_playercolors() //gml_Script_scr_playercolors
+function scr_playercolors() //scr_playercolors
 {
     switch character
     {

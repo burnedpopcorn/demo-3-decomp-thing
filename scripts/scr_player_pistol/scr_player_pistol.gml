@@ -1,4 +1,4 @@
-function scr_player_pistol() //gml_Script_scr_player_pistol
+function scr_player_pistol() //scr_player_pistol
 {
     landAnim = 0
     if grounded

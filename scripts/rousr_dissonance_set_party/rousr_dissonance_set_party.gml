@@ -1,4 +1,4 @@
-function rousr_dissonance_set_party() //gml_Script_rousr_dissonance_set_party
+function rousr_dissonance_set_party() //rousr_dissonance_set_party
 {
     var _party_size = argument[0]
     var _party_max = argument[1]

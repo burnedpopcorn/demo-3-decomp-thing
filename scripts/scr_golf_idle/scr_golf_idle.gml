@@ -1,4 +1,4 @@
-function scr_golf_idle() //gml_Script_scr_golf_idle
+function scr_golf_idle() //scr_golf_idle
 {
     grav = 0.5
     if (vsp >= 10 && vsp < 20)

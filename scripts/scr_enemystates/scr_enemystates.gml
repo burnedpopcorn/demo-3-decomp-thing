@@ -1,4 +1,4 @@
-function scr_enemystates() //gml_Script_scr_enemystates
+function scr_enemystates() //scr_enemystates
 {
     switch state
     {

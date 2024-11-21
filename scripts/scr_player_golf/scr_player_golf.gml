@@ -1,4 +1,4 @@
-function scr_player_golf() //gml_Script_scr_player_golf
+function scr_player_golf() //scr_player_golf
 {
     grav = 0.5
     move = key_left + key_right

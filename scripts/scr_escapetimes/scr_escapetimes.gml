@@ -1,4 +1,4 @@
-function scr_escapetimes() //gml_Script_scr_escapetimes
+function scr_escapetimes() //scr_escapetimes
 {
     switch room
     {

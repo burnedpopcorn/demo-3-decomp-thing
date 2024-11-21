@@ -1,4 +1,4 @@
-function scr_enemy_stun() //gml_Script_scr_enemy_stun
+function scr_enemy_stun() //scr_enemy_stun
 {
     var vdirection = sign(hsp)
     if (object_index == obj_ninja)

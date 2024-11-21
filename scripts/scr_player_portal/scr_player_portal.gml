@@ -1,4 +1,4 @@
-function scr_player_portal() //gml_Script_scr_player_portal
+function scr_player_portal() //scr_player_portal
 {
     cutscene = true
     if (floor(image_index) == (image_number - 5) && sprite_index == spr_pizzaportalentrancestart)

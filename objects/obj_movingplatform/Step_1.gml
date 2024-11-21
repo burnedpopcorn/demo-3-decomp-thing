@@ -32,7 +32,7 @@ for (var i = 0; i < (array_length(objects) - 1); i++)
     with (objects[i])
     {
         var old_y = bbox_bottom
-        var scr = (id == obj_player ? gml_Script_scr_solid_player : gml_Script_scr_solid)
+        var scr = (id == obj_player ? scr_solid_player : scr_solid)
         if ((place_meeting((x - other.hsp), y, other.id) || place_meeting(x, (y + other.vsp + 1), other.id)) && old_y <= (platform_y + 8))
         {
             var hcheck = script_execute(scr, (x + other.hsp), y)

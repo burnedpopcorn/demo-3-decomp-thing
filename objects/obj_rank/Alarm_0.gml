@@ -8,7 +8,7 @@ while (global.flushtextures == true)
     global.flushtextures = false
     show_debug_message("Flushed Textures")
 }
-script_execute(gml_Script_scr_playerreset)
+script_execute(scr_playerreset)
 var _backtohubroom = hub_room1
 with (obj_player1)
 {

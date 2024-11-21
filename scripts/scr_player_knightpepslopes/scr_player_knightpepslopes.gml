@@ -1,4 +1,4 @@
-function scr_player_knightpepslopes() //gml_Script_scr_player_knightpepslopes
+function scr_player_knightpepslopes() //scr_player_knightpepslopes
 {
     var _movespeed = movespeed + (clamp(round(knightslidespeed / 32), 0, 7))
     if ((!(place_meeting(x, (y + 1), obj_railh))) && (!(place_meeting(x, (y + 1), obj_railh2))))

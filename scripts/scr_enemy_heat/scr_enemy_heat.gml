@@ -1,4 +1,4 @@
-function scr_enemy_heat() //gml_Script_scr_enemy_heat
+function scr_enemy_heat() //scr_enemy_heat
 {
     if ((!(place_meeting(x, (y + 1), obj_railh))) && (!(place_meeting(x, (y + 1), obj_railh2))))
         hsp = image_xscale * movespeed
